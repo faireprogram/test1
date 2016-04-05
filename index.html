@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	 <script src="bower_components/angular/angular.js"></script>
+	  <script src="bower_components/angular-route/angular-route.js"></script>
+	  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	 <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body ng-app="myApp">
+	<header>
+		<div class="row">
+			<div class="col-md-2 logo">
+				<div>LOGO</div>
+			</div>
+			<div class="col-md-10">
+					<ul class="menu">
+						<li> <a href="#/view1">Home</a></li>
+						<li> <a href="#/view2">Teams</a></li>
+					</ul>
+			</div>
+		</div>
+		
+	</header>
+
+	<div ng-view class="mainContainer">
+
+	</div>
+
+	<script type="text/javascript" src="view1.js"></script>
+	<script type="text/javascript" src="view2.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

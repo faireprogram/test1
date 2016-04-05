@@ -1,0 +1,92 @@
+
+/*clear the css*/
+
+body {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+header {
+	border: 3px black solid;
+	border-radius: 15px;
+	padding: 10px 10px;
+
+}
+
+.logo > div {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	margin: auto;
+}
+
+.logo {
+	margin: auto;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+
+.menu{
+	list-style: none;
+	margin-top: 80px;
+}
+
+.menu li {
+	float: left;
+	margin-right: 5px;
+}
+
+.mainContainer {
+	border-radius: 15px;
+	margin: 20px 0 0 0;
+	background-color: black;
+}
+
+.leftContainer {
+	background-color: black;
+	font-size: 14px;
+	font-style: bold;
+	color: white;
+}
+
+.rightContainer {
+	background-color: grey;
+	height: 100%;
+	padding: 15px 15px;
+}
+
+
+.tableComponet, .tableComponet table {
+	width:  100%;
+}
+
+.tableComponet div {
+	color: black;
+	padding: 5px;
+	background: linear-gradient(white, rgb(213, 211, 211));
+}
+
+.mainContainer .row {
+	margin: 0;
+}
+
+.tableComponet table tr:first-child {
+	background-color: #E8DECA;
+	padding: 5px;
+}
+
+.tableComponet table {
+	padding: 0 5px;
+	background: white;
+}
+
+.tableComponet table td{
+	padding: 5px;
+	border: 1px #F3EAEA solid;
+	background: white;
+}
+.tableComponet table th{
+	padding-left: 5px;
+}

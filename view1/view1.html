@@ -1,0 +1,54 @@
+<div>
+	<div class="row">
+		<div class="col-md-2 leftContainer">
+			<div class="row">
+				<div class="col-md-4">
+					<div>profileImg</div>
+				</div>
+				<div class="col-md-8">
+					<p>//guo ji</p>
+					<p ng-bind="user.firstName"></p>
+					<p ng-bind="user.lastName"></p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<p>Country:</p>
+					<p>Team:</p>
+					<p>Birth:</p>
+					<p>Biography</p>
+				</div>
+				<div class="col-md-8">
+					<p ng-bind="user.country"></p>
+					<p ng-bind="user.team"></p>
+					<p ng-bind="user.bod | date: 'yyyy-MM-dd'"></p>
+					<p>icon</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-10 rightContainer">
+			<div class="tableComponet">
+				<div>Formula 1 2013 Results</div>
+				<table>
+					<tr>
+						<th>Round</th>
+						<th>Grand Prix</th>
+						<th>Team</th>
+						<th>Grid</th>
+						<th>Race</th>
+					</tr>
+					<tr ng-repeat="data in datas">
+						<td ng-bind="data.Round"></td>
+						<td ng-bind="data.Country"></td>
+						<td ng-bind="data.Team"></td>
+						<td ng-bind="data.Grid"></td>
+						<td ng-bind="data.Hires"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+</div>
